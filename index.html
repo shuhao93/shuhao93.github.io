@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<head>
+    <title>首页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="shortcut icon" href=" favicon.ico"/>
+</head>
+
+<body>
+    <div class="main-wrapper">
+    <header>  <!-- 页头开始 -->
+        <nav>
+            <div class="logo">
+                <a href="index.html">我的简历</a>
+            </div>
+            
+            <ul>
+                <li><a href="index.html" class="active">首页</a></li>
+                <!-- <li><a href="html/article.html">文章模板</a></li> -->
+                <li><a href="html/about.html">关于本站</a></li>
+                <li id="sidebar_trigger"><a href="#">菜单栏</a></li>
+            </ul>
+       </nav>
+
+        <div id="banner">
+            <div class="inner">
+            <h1>严舒豪</h1>
+            <p class="sub-heading">
+            毕业院校：浙江工业大学
+            <br><br>
+            专业：计算机科学与技术
+            <br><br>
+            学历：本科
+            <br><br>
+            学位：学士
+            <br><br>
+            毕业时间：2016年7月
+            </p>
+            <br><br><br>
+            <a href="#go-here"><button type="button">关于我</button></a>
+            </div>
+        </div>
+    </header>  <!-- 页头结束 -->
+
+    <div class="content"> <!-- 内容开始 -->
+        <section class="section01">
+            <div class="wrapper" id="go-here">
+                <h2>基本信息</h2>
+                    <div class="hr"></div>
+                <table cellspacing="25" cellpadding="10">
+                    <tr>
+                        <td>出生年月：1993年1月</td>
+                        <td>联系电话 :15658075780</td>
+                    </tr>
+                    <tr>
+                        <td>电子邮箱 : 86684914@qq.com</td>
+                        <td>籍贯 : 浙江省杭州市</td>
+                    </tr>
+                    <tr>
+                        <td>年龄：24</td>
+                        <td>民族：汉族</td>
+                    </tr>
+                </table>
+            </div>
+
+            
+            <div class="icon-group">
+                <span class="icon"><i class="fa fa-star fa-3x"></i></span>
+                <span class="icon"><i class="fa fa-weixin fa-3x" id="icon-weixin"></i></span>
+                <span class="icon"><a onclick="alert('谢谢客官点赞！')"><i class="fa fa-thumbs-up fa-3x"></a></i></span>
+
+                <div class="weixin"><img src="http://odbk2ygqn.bkt.clouddn.com/image/blog/weixin.jpg" class="weixin-img"></div>
+            </div>
+            
+
+        </section>
+
+        <section class="section02">
+            <div class="block">
+                <div class="img-block">
+                    <img src="http://odbk2ygqn.bkt.clouddn.com/image/blog/pic01.jpg">
+                </div>
+                <div class="text-block">
+                    <div class="mid-text">
+                    <h2>工作经历</h2>
+                    <hr>            
+                    <p>
+                    广州联奕信息科技有限公司 
+                    <br>
+                    职位：实施工程师（实习）
+                    <br>
+                    时间：2015.7--2015.11
+                    <br>
+                    工作内容：负责办公自动化、数字校园项目软件的实施、安装、维护。
+                    </p> 
+                    </div>
+                </div>   
+            </div>
+
+            <div class="block">
+                <div class="text-block">
+                    <div class="mid-text">
+                    <h2>个人能力</h2>
+                    <hr>
+                    <p>
+                    1.   熟悉HTML/CSS，JavaScript,jQuery,C++的基本操作。
+                    <br>
+                    2.  熟悉Office办公套件和PhotoShop软件的使用。
+                    <br>
+                    3.  具有良好的口头和书面技能。
+                    <br>
+                    4.  大学英语（CET）四级，日语能力考试（JLPT）三级。
+                    </p>
+                    </div>
+                </div> 
+                <div class="img-block">
+                    <img src="http://odbk2ygqn.bkt.clouddn.com/image/blog/pic02.jpg">
+                </div>  
+            </div>
+
+            <div class="block">
+                <div class="img-block">
+                    <img src="http://odbk2ygqn.bkt.clouddn.com/image/blog/pic03.jpg">
+                </div>
+                <div class="text-block">
+                    <div class="mid-text">
+                    <h2>自我评价</h2>
+                    <hr>
+                    <p>
+                    1.  本人性格稳重，待人真诚；注重细节，能吃苦耐劳。
+                    <br>
+                    2. 有较强的团体协作精神，能较快的适应环境，并融入其中。
+                    <br>
+                    3.  有拼搏精神，肯付出，相信一份耕耘一份收获。  
+                    </p>
+                    </div>
+                </div>   
+            </div>            
+        </section>
+
+        <section class="section03">
+            <div class="heading-wrapper">
+                <h2>个人项目经历</h2>
+                <div class="hr"></div>
+                <div class="sub-heading">
+               <!--  <p>Lorem</p> -->
+                </div>
+            </div>
+            <br>
+            <div class="card-group">
+                <div class="card">
+                    <h3><a href="my2048/2048.html" target="_blank">2048小游戏--网页版</a></h3>
+                    <p>
+                    在页面上实现一个2048小游戏。PC端使用键盘方向键操作。使用js方法进行响应式布局兼容移动端，支持触摸操作。
+                    <br><br>
+                    关键字：javascript jQuery
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>扁平风格个人简历（博客）网站</h3>
+                    <p>布局并编写了一个扁平风格的个人简历（博客）网页。具有顶部导航栏，侧面菜单栏，回到顶部按钮等功能。
+                    <br><br>
+                    关键字：html css javascript
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3><a href="https://genokillerxx.github.io/" target="_blank">响应式互联网金融网站demo</a></h3>
+                    <p>一个互联网金融类型的网站demo，包括了首页、登录页、注册页、APP下载页，通过媒体查询实现响应式布局。
+                    <br><br>
+                    关键字：html css 响应式</p>
+                </div>
+                
+                <div class="card">
+                    <h3>其他项目</h3>
+                    <p>简易高校人事管理系统 -- 实现一个具有基本功能的管理系统。开发语言主要为javascript，系统采用B/S架构、MVC模式、SSH框架。
+                    <br>
+                    OpenGL三维动画设计 -- 编程绘制一段三维动画。编程语言为C++,通过OpenGL图形API实现。
+                    </p>
+                </div>                             
+            </div>
+        </section>
+    </div>  <!-- 内容结束 -->
+
+    <footer>    <!-- 页脚开始 -->    
+        <ul class="share-group">
+               <li><i class="fa fa-qq"></i></li>
+               <li><i class="fa fa-weixin"></i></li>
+               <li><i class="fa fa-phone"></i></li>
+               <li><i class="fa fa-envelope-square"></i></li> 
+        </ul>
+
+        <div class="copyright">
+            &copy;Yan ShuHao - 2016.
+        </div>
+    </footer>   <!-- 页脚结束 -->
+    
+    <div class="mask"></div>
+    <div id="sidebar">
+        <ul>
+            <li><a href="my2048/2048.html">2048小游戏</a></li>
+            <li><a href="http://shuhao.win" target="_blank">我的博客(施工中)</a></li>
+            <li><a href="https://genokillerxx.github.io/" target="_blank">互联网金融demo</a></li>
+            <li><a href="html/website_collection.html">网址收藏</a></li>
+            <li><a href="html/article.html">文章模板</a></li>
+        </ul>
+    </div>
+    <button class="back-to-top" alt="返回顶部"><i class="fa fa-chevron-up fa-3x"></i></button>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
