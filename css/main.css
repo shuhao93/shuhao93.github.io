@@ -227,8 +227,10 @@ button
 .weixin
 {
 	position: absolute;
-	left: 44%;
-	top: -200px;
+	width: 200px;
+	height: 200px;
+	left: calc(50% - 100px);
+	top: calc(-50% - 105px);
 	z-index: 999;
 }
 
