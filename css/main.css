@@ -290,7 +290,7 @@ button
 	display: block;
 	height: 60%;
 	width: 92%;
-	margin: 13% 4%;
+	margin: 5% 4%;
 }
 
 .text-block h2
@@ -312,7 +312,7 @@ button
 	font-size: 2rem;
 	letter-spacing: 1px;
 	padding: 0 1rem;
-	line-height: 2.5;
+	line-height: 1.4;
 	margin: 0;
 }
 
